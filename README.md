@@ -10,7 +10,7 @@ The model processes fixed-length sequences through:
 
 1. Convolutional temporal embedding with learned positional embeddings.
 2. Hierarchical binary-tree max pooling.
-3. Level-wise **full multi-head self-attention** (no graph attention or adjacency matrix).
+3. Level-wise **full multi-head self-attention**.
 4. Exponential-moving-average vector quantization.
 5. Global max pooling across tree levels and a sigmoid classification head.
 
